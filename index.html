@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Criptografia de Texto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+         
+
+
+           <h1 class="top">Criptografar/Descriptografar</h1>
+
+
+
+       
+
+        <main>
+            
+            <form>
+                
+                <fieldset class="text-area">
+
+                    <label for="texto-usuario">Digite Seu Texto em Minúsculo</label>
+                    <textarea cols="70" rows="7" id="texto-usuario" onkeyup="textoUsuario()" placeholder="Digite o texto que deseja criptografar ou descriptografar"></textarea> 
+                    <label for="texto-critografado">Decodificador de texto</label>
+                    <textarea name="recebertexto" id="texto-critografado" cols="70" rows="7" placeholder="Texto criptografado ou descriptografado aparecerá aqui" ></textarea>
+                                     
+                </fieldset> 
+                
+                <fieldset class="buttons">
+
+                    
+                    <input type="button" onclick="criptocrafarTexto()" value="Criptografar"> 
+                    <input type="button" onclick="descriptografarTexto()" value="Descriptografar"> 
+                    <input type="button" onclick="copiarTexto()" value="Copiar">                   
+
+                </fieldset>                                                       
+               <script src="script.js"></script>
+            </form>
+
+            <div class="degrade"></div>   
+ 
+        </main>
+
+        <footer>
+
+           
+            <p>ONE-Oracle Next Education  2023 : Ygor Borges</p>
+
+        </footer>
+
+    </body>
+
+</html>
